@@ -1,0 +1,34 @@
+About,"    { query: 'about {name}', icon: 'Info' },"
+Почему,"{ query: 'why {name}', icon: 'HelpCircle' },  { query: 'reasons to study in {name}', icon: 'ListChecks' }, { query: 'impact of {name}', icon: 'ListChecks' },"
+Аккредитации,"    { query: 'accreditations', icon: 'BadgeCheck' },"
+Рейтинги,"{ query: 'rankings', icon: 'TrendingUp' } + ссылка образцы https://www.topuniversities.com/search/universities?q=south%20wales  и образца https://www.timeshighereducation.com/search/type/ranking_institution?search=south%20wales где вместо soutwales - NNN"
+Известные выпускники,запрос без официального сайта - только NNN Notable alumni
+История,"{ query: '{name} history -intitle:degree -intitle:course -intitle:courses -intitle:MA -intitle:BA -intitle:phd', icon: 'BookOpen' },"
+Карьера,"{ query: `career opportunities ${EXCLUDE_ACADEMIC} -inurl:news`, icon: 'Briefcase' },    { query: `placement companies -intitle:institute -intitle:school -intitle:department -intitle:faculty -intitle:with -intitle:BSc`, icon: 'Target' },"
+Исследования,сайт+NNN+research
+Компании,"{ query: `partners ${EXCLUDE_ACADEMIC}`, icon: 'Handshake' },     { query: `industry companies ${EXCLUDE_ACADEMIC}`, icon: 'Factory' },"
+Поступление,сайт+NNN+international requirements
+Стоимость,сайт+NNN+fees
+Стоимость и стипендии,сайт+NNN+international scholarships and bursaries
+Кампус(-ы),"{ query: 'our campus', icon: 'School' },     { query: 'our locations', icon: 'ANY' },"
+Расположение,"{ query: 'location -inurl:news', icon: 'MapPin' },     { query: 'city {shortName} -inurl:news', icon: 'Building2' },"
+Инфраструктура,"   { query: '(university|campus) facilities -intitle:department -intitle:faculty', icon: 'Wrench' },"
+Проживание,"    { query: 'about university accommodation -inurl:news', icon: 'BedDouble' },"
+FAQ,сайт+NNN+FAQ
+Студенческая жизнь,"{ query: 'student life university -inurl:news', icon: 'Users' },"
+Внеклассная жизнь,сайт+NNN+student life
+Клубы и сообщества,"{ query: 'societies and clubs -inurl:news', icon: 'UsersRound' },"
+Спорт,"{ query: 'athletics -inurl:news', icon: 'Trophy' },"
+Учёба,"{ query: '(subjects areas|browse subjects) -inurl:news', icon: 'BookOpen' },    { query: 'study at courses and programmes -intitle:school -intitle:faculty -intitle:department -inurl:news', icon: 'GraduationCap' },"
+Программы,
+Дипломы,
+Курсы,
+Бакалавриат,"{ query: 'undergraduate', icon: 'ANY' }"
+Магистратура,"{ query: 'masters postgraduate', icon: 'ANY' }"
+MBA,"{ query: 'MBA', icon: 'ANY' }"
+Факультеты и школы,"    { query: '(""schools""|""faculties""|""departments""|""colleges"") -inurl:news', icon: 'School' },"
+Языки,
+Английский,сайт+NNN+english preparation
+Foundation,сайт+NNN+foundation
+Особенности,
+Возможности,"{ query: 'for international students', icon: 'ANY' }"
